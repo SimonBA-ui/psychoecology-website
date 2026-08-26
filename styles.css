@@ -550,10 +550,24 @@ h2 {
   margin: 1.5rem 0 0;
 }
 
-.email-line a,
 footer a {
   font-weight: 750;
   text-underline-offset: 0.25rem;
+}
+
+.form-pending {
+  max-width: 42rem;
+  padding: 1.5rem;
+  border: 1px solid rgb(255 253 248 / 55%);
+  background: rgb(19 41 34 / 18%);
+}
+
+.form-pending p {
+  margin: 0;
+}
+
+.form-pending p + p {
+  margin-top: 0.65rem;
 }
 
 .privacy-note {
