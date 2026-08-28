@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 96" role="img" aria-labelledby="title desc">
+  <title id="title">Psychoecology</title>
+  <desc id="desc">Psychoecology wordmark with a simplified leaf and human emblem</desc>
+
+  <g transform="translate(4 4)">
+    <path d="M15 50A35 35 0 0 1 69 19" fill="none" stroke="#203e35" stroke-width="6" stroke-linecap="round"/>
+    <path d="M69 19A35 35 0 0 1 73 48" fill="none" stroke="#203e35" stroke-width="6" stroke-linecap="round"/>
+
+    <circle cx="39" cy="29" r="7" fill="#d65f3c"/>
+
+    <path d="M38 66C32 54 28 44 23 39C31 39 37 44 42 51C46 43 51 38 58 35C54 45 49 55 44 66Z" fill="#203e35"/>
+
+    <path d="M44 51C48 34 58 24 72 21C70 36 62 47 44 57Z" fill="#8ea184"/>
+    <path d="M47 63C56 53 66 50 78 52C72 63 62 69 47 69Z" fill="#203e35"/>
+
+    <path d="M17 71C28 64 39 64 50 71C60 77 70 77 82 70" fill="none" stroke="#203e35" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <text x="108" y="64" fill="#203e35" font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="600" letter-spacing="-1.2">Psychoecology</text>
+</svg>
