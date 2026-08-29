@@ -92,17 +92,47 @@
 
 @media (max-width: 44rem) {
   .header-inner {
-    gap: 0.45rem;
+    min-height: auto;
+    flex-wrap: wrap;
+    gap: 0.45rem 0.7rem;
+    padding: 0.55rem 0 0.45rem;
+  }
+
+  .wordmark {
+    order: 1;
   }
 
   .wordmark img {
     height: 1.9rem;
   }
 
+  .language-switcher {
+    order: 2;
+  }
+
   .language-switcher a {
     min-width: 1.65rem;
     padding: 0.3rem 0.3rem;
     font-size: 0.64rem;
+  }
+
+  .site-header nav {
+    order: 3;
+    display: flex;
+    width: 100%;
+    flex: 0 0 100%;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding-top: 0.4rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .site-header nav a {
+    flex: 1 1 0;
+    font-size: 0.76rem;
+    line-height: 1.2;
+    text-align: center;
+    white-space: nowrap;
   }
 
   .header-contact {
