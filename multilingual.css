@@ -118,7 +118,9 @@
 
   .site-header nav {
     order: 3;
-    display: flex;
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
     width: 100%;
     flex: 0 0 100%;
     justify-content: space-between;
@@ -128,6 +130,7 @@
   }
 
   .site-header nav a {
+    display: block;
     flex: 1 1 0;
     font-size: 0.76rem;
     line-height: 1.2;
