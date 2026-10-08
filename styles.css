@@ -859,3 +859,171 @@ footer {
     transition: none;
   }
 }
+
+
+/* Educational project layout */
+
+.section-side-note {
+  max-width: 28rem;
+  margin: 1.5rem 0 0;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.topics-section {
+  background: var(--paper-bright);
+}
+
+.topic-grid {
+  margin-top: clamp(3rem, 7vw, 5rem);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.topic-card {
+  min-height: 17rem;
+  padding: 1.6rem;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.topic-number {
+  margin: 0 0 3rem;
+  color: var(--signal);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.topic-card h3 {
+  margin: 0;
+  color: var(--forest);
+  font-size: clamp(1.45rem, 2.5vw, 2rem);
+  font-weight: 500;
+  line-height: 1.12;
+}
+
+.topic-card p:last-child {
+  margin: 0.85rem 0 0;
+  color: var(--muted);
+}
+
+.club-section {
+  background: var(--forest-dark);
+  color: var(--white);
+}
+
+.club-section .narrow-heading p:last-child {
+  color: #bdc9c4;
+}
+
+.club-grid {
+  margin-top: clamp(3rem, 7vw, 5rem);
+  display: grid;
+  grid-template-columns: 1.08fr 0.92fr;
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.club-card {
+  padding: clamp(2rem, 4vw, 3.5rem);
+}
+
+.club-main {
+  background: var(--signal);
+}
+
+.club-detail {
+  border: 1px solid #64746e;
+  background: #1a332b;
+}
+
+.club-card h3 {
+  max-width: 12ch;
+  margin: 1.4rem 0 0;
+  font-size: clamp(2.2rem, 5vw, 4.5rem);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.club-detail h3 {
+  font-size: clamp(2rem, 4vw, 3.3rem);
+}
+
+.club-lead,
+.club-detail p {
+  max-width: 38rem;
+  margin: 1.5rem 0 0;
+  font-size: 1.08rem;
+}
+
+.format-list {
+  margin: 2rem 0;
+  padding: 1.5rem 0 0;
+  border-top: 1px solid rgb(255 253 248 / 35%);
+  list-style: none;
+}
+
+.format-list li {
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+.format-list li + li {
+  margin-top: 0.7rem;
+}
+
+.format-list li::before {
+  content: "+";
+  position: absolute;
+  left: 0;
+  font-weight: 850;
+}
+
+.club-note {
+  padding-top: 1.5rem;
+  border-top: 1px solid rgb(255 253 248 / 22%);
+  color: #cbd4d0;
+  font-size: 0.92rem !important;
+}
+
+[dir="rtl"] .format-list li {
+  padding-left: 0;
+  padding-right: 1.25rem;
+}
+
+[dir="rtl"] .format-list li::before {
+  left: auto;
+  right: 0;
+}
+
+@media (max-width: 62rem) {
+  .topic-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .club-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 44rem) {
+  .topic-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .topic-card {
+    min-height: auto;
+  }
+
+  .topic-number {
+    margin-bottom: 1.5rem;
+  }
+
+  .club-card {
+    padding: 1.5rem;
+  }
+}
