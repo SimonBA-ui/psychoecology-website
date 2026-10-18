@@ -1,0 +1,148 @@
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.2rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgb(255 253 248 / 72%);
+  flex: 0 0 auto;
+}
+
+.language-switcher a {
+  min-width: 2.15rem;
+  padding: 0.35rem 0.5rem;
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 800;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+}
+
+.language-switcher a:hover,
+.language-switcher a:focus-visible {
+  color: var(--signal);
+}
+
+.language-switcher a[aria-current="page"] {
+  background: var(--forest);
+  color: var(--white);
+}
+
+.wordmark img {
+  display: block;
+  width: auto;
+  height: 3rem;
+}
+
+[dir="rtl"] body {
+  text-align: right;
+}
+
+[dir="rtl"] .wordmark {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+[dir="rtl"] .header-contact {
+  padding-left: 0;
+  border-left: 0;
+  padding-right: 1.5rem;
+  border-right: 1px solid var(--line);
+}
+
+[dir="rtl"] .pull-line {
+  padding-left: 0;
+  border-left: 0;
+  padding-right: 1.5rem;
+  border-right: 4px solid var(--signal);
+}
+
+[dir="rtl"] .offer li {
+  padding-left: 0;
+  padding-right: 1.25rem;
+}
+
+[dir="rtl"] .offer li::before {
+  left: auto;
+  right: 0;
+}
+
+[dir="rtl"] .form-success {
+  border-left: 0;
+  border-right: 4px solid var(--forest-dark);
+}
+
+[dir="rtl"] .form-field input,
+[dir="rtl"] .form-field textarea {
+  direction: rtl;
+  text-align: right;
+}
+
+[lang="he"] h1,
+[lang="he"] h2,
+[lang="he"] h3,
+[lang="he"] .opening,
+[lang="he"] .price,
+[lang="he"] .footer-inner p:first-child {
+  font-family: "Noto Serif Hebrew", "Times New Roman", serif;
+}
+
+@media (max-width: 44rem) {
+  .header-inner {
+    min-height: auto;
+    flex-wrap: wrap;
+    gap: 0.45rem 0.7rem;
+    padding: 0.55rem 0 0.45rem;
+  }
+
+  .wordmark {
+    order: 1;
+  }
+
+  .wordmark img {
+    height: 1.9rem;
+  }
+
+  .language-switcher {
+    order: 2;
+  }
+
+  .language-switcher a {
+    min-width: 1.65rem;
+    padding: 0.3rem 0.3rem;
+    font-size: 0.64rem;
+  }
+
+  .site-header nav {
+    order: 3;
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 100%;
+    flex: 0 0 100%;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding-top: 0.4rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .site-header nav a {
+    display: block;
+    flex: 1 1 0;
+    font-size: 0.76rem;
+    line-height: 1.2;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .header-contact {
+    display: none;
+  }
+
+  [dir="rtl"] .header-contact {
+    display: none;
+  }
+}

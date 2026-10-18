@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 90" role="img" aria-labelledby="title desc">
+  <title id="title">Psychoecology</title>
+  <desc id="desc">Psychoecology wordmark with an organic network emblem</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 53a34 34 0 0 1 56-29" stroke="#203e35" stroke-width="4"/>
+    <path d="M73 24a34 34 0 0 1 4 39" stroke="#d65f3c" stroke-width="4"/>
+    <path d="M24 68c12-7 23-10 34-8 9 2 14 8 22 11" stroke="#203e35" stroke-width="3.5"/>
+    <path d="M31 69c9 6 20 8 31 5 8-2 14-6 21-11" stroke="#203e35" stroke-width="2.5"/>
+    <path d="M47 61V34" stroke="#203e35" stroke-width="2.5"/>
+    <path d="M47 45l-10-9M47 50l13-12M47 56l14-3" stroke="#58615c" stroke-width="1.8"/>
+  </g>
+  <path d="M47 38c-10-1-15-7-16-16 10 1 16 6 16 16Z" fill="#203e35"/>
+  <path d="M49 43c2-12 9-18 21-18-2 11-8 17-21 18Z" fill="#58615c"/>
+  <path d="M51 56c6-8 14-10 23-6-5 8-12 10-23 6Z" fill="#203e35" opacity=".82"/>
+  <circle cx="31" cy="36" r="3.5" fill="#d65f3c"/>
+  <circle cx="61" cy="38" r="3" fill="#d65f3c"/>
+  <circle cx="61" cy="53" r="2.6" fill="#d65f3c"/>
+  <text x="100" y="59" fill="#203e35" font-family="Georgia, 'Times New Roman', serif" font-size="45" font-weight="600" letter-spacing="-1">Psychoecology</text>
+</svg>

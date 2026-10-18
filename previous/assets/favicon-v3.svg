@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Psychoecology">
+  <path d="M10 36A24 24 0 0 1 48 16" fill="none" stroke="#203e35" stroke-width="6" stroke-linecap="round"/>
+  <path d="M48 16A24 24 0 0 1 53 35" fill="none" stroke="#203e35" stroke-width="6" stroke-linecap="round"/>
+
+  <circle cx="28" cy="23" r="6" fill="#d65f3c"/>
+
+  <path d="M28 50C24 41 20 34 16 30C22 30 27 34 31 39C34 33 38 29 44 27C41 36 37 44 33 50Z" fill="#203e35"/>
+  <path d="M33 39C36 27 43 20 54 18C52 29 46 37 33 43Z" fill="#8ea184"/>
+  <path d="M35 48C42 40 50 39 58 41C53 49 45 53 35 53Z" fill="#203e35"/>
+
+  <path d="M12 54C20 49 28 49 36 54C43 58 50 58 57 53" fill="none" stroke="#203e35" stroke-width="5" stroke-linecap="round"/>
+</svg>
